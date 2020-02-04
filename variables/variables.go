@@ -42,5 +42,11 @@ func main() {
 	fmt.Println("country is", country, "and pincode is", pincode, "and distance is", distance)
 
 	// Short hand declaration
+	// Should always have inital values
+	item := "beer"
+	fmt.Println("I have a", item)
 
+	// This syntax works only when atleast one variable is newly declared
+	item, amount := "cocktail", 90
+	fmt.Println("This", item, "costs around", amount, "rupees.")
 }
