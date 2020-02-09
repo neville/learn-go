@@ -84,10 +84,21 @@ func main() {
 	fmt.Println("Value of estimate is", estimate)
 
 	// byte
+	// alias of uint8
 
 	// rune
+	// alias of int32
 
 	// string
+	var name string = "Neville"
+	fmt.Println("My name is", name)
 
 	// type conversion
+	var minutes float32 = 5.7
+	var secondsInAMinute int = 60
+	resultInSeconds := minutes * float32(secondsInAMinute)
+	fmt.Println("Total seconds are", resultInSeconds)
+
+	var minutesInInt int = int(minutes)
+	fmt.Println("Minutes in integer", minutesInInt)
 }
