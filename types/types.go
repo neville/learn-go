@@ -36,6 +36,26 @@ func main() {
 	fmt.Println("speed is", speed, "and area is", area)
 
 	// unsigned integers
+	// uint
+	// size is either 32 or 64 bits and it depends on the underlying platform
+	var centimeters uint = 968
+	fmt.Println("Value of centimeters is", centimeters)
+
+	// uint8
+	var meters uint8 = 255
+	fmt.Println("Value of meters is", meters)
+
+	// unit16
+	var kilometers uint16 = 65535
+	fmt.Println("Value of kilometers is", kilometers)
+
+	// uint32
+	var milimeters uint32 = 4294967295
+	fmt.Println("Value of milimeters is", milimeters)
+
+	// uint64
+	var inches uint64 = 18446744073709551615
+	fmt.Println("Value of inches is", inches)
 
 	// floating points
 
