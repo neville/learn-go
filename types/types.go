@@ -58,8 +58,30 @@ func main() {
 	fmt.Println("Value of inches is", inches)
 
 	// floating points
+	// float32
+	var radius float32 = 645.789
+	var diameter float32 = -545.986
+	fmt.Println("Value of radius and diameter is", radius, "and", diameter)
+
+	// float64
+	// its the default if no type specified during variable initialization
+	var grams float64 = 4564.745564654
+	var kilograms float64 = -5636.346345235
+	fmt.Println("Value of grams and kilograms is", grams, "and", kilograms)
 
 	// complex
+	// combination of real and imaginary parts
+	// both real and imaginary parts should be either float32 or float64
+	// complex64 category = when real & imaginary are float32
+	// complex128 category = when real & imaginary are float64
+	var stockValue = complex(55, 77)
+	var price = complex(-55, -47)
+	var averageValue = complex(33.454, 56.677)
+	fmt.Println("Value of stockValue is", stockValue, "and price is", price, "andd averageValue is", averageValue)
+
+	// complex using shorthand variable declaration
+	estimate := 98 + 567.76i
+	fmt.Println("Value of estimate is", estimate)
 
 	// byte
 
