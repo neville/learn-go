@@ -2,18 +2,18 @@
 
 I created this repository for hosting Go code i write while learning the language.
 
-Topics 
+## Topics 
 
-- /hello  
+- **/hello**  
 An introductory exmaple showing the basic structure of a Go program.
 
-- /variables  
+- **/variables**  
 Declaring, initializing and using variables in your program.
 
-- /types  
+- **/types**  
 List of different data types supported by the language and their usage.
 
-- /constants  
+- **/constants**  
 Declaring, initializing and using constants in Go.
 
-- /conditionals
+- **/conditionals**
