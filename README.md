@@ -2,6 +2,11 @@
 
 I created this repository for hosting Go code i write while learning the language.
 
+# Build the project
+```cd <project-base-directory>```
+
+```go build ./...```
+
 ## Topics 
 
 - **cmd/hello**  
